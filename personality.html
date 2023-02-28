@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Room swap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/custom.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <div class="container-fluid text-center p-0 m-0">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-start" href="#">
+                    <figure>
+                        <img src="/assets/logo.png" alt="nav bar logo" />
+                    </figure>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2  mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Household</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Housemate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Login</a>
+                        </li>
+                    </ul>
+                    <form>
+                        <button class="btn nav-btn get-started-btn" type="button">Get Started</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="card text-center d-flex flex-column profile-container">
+                <div class="card-header main-card  d-flex flex-column justify-content-between pb-0">
+                    <figure>
+                        <img src="/assets/Group 5942.svg" alt="house hold" class="header-image-middle" />
+                        <figcaption>
+                            <label>Household</label>
+                        </figcaption>
+                    </figure>
+                    <ul class="nav nav-pills card-header-pills d-flex tab-item">
+                        <li class="nav-item  main-tab-item done">
+                            <img src="/assets/Group 5977.svg" />
+                            <a class="nav-link" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item  main-tab-item active">
+                            <img src="/assets/Group 6134.svg" alt="Personality icon" />
+                            <a class="nav-link" href="#">Personality</a>
+                        </li>
+                        <li class="nav-item  main-tab-item">
+                            <img src="/assets/Group 5980.svg" alt="Preferences icon" />
+                            <a class="nav-link" href="#" tabindex="-1">Preferences</a>
+                        </li>
+                        <li class="nav-item  main-tab-item">
+                            <img src="/assets/Group 5158.svg" alt="Practical icon" />
+                            <a class="nav-link" href="#" tabindex="-1">Practical</a>
+                        </li>
+                        <li class="nav-item  main-tab-item">
+                            <img src="/assets/Group 5979.svg" alt="Priorites icon" />
+                            <a class="nav-link" href="#" tabindex="-1">Priorites</a>
+                        </li>
+                        <li class="nav-item  main-tab-item">
+                            <img src="/assets/Group 5271.svg" alt="Photos icon" />
+                            <a class="nav-link" href="#" tabindex="-1">Photos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-body tab-item-body">
+                    <p class="card-text">What best describe the personality of your household?</p>
+                    <div class="text-center">
+                        <div class="row">
+                            <div class="col personality">
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Quite, calm
+                                        household
+                                        input</label>
+                                    <input class="form-check-input float-end" type="checkbox" role="switch"
+                                        id="flexSwitchCheckDefault">
+                                </div>
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Plain ahead
+                                        input</label>
+                                    <input class="form-check-input float-end" type="checkbox" role="switch"
+                                        id="flexSwitchCheckDefault">
+                                </div>
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Like things a certain
+                                        way
+                                        input</label>
+                                    <input class="form-check-input float-end" type="checkbox" role="switch"
+                                        id="flexSwitchCheckDefault">
+                                </div>
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Very tidy
+                                        input</label>
+                                    <input class="form-check-input float-end" type="checkbox" role="switch"
+                                        id="flexSwitchCheckDefault">
+                                </div>
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Flexible
+                                        input</label>
+                                    <input class="form-check-input float-end" type="checkbox" role="switch"
+                                        id="flexSwitchCheckDefault">
+                                </div>
+                            </div>
+                            <div class="col personality">
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Routine
+                                        input</label>
+                                    <input class="form-check-input float-end" type="checkbox" role="switch"
+                                        id="flexSwitchCheckDefault">
+                                </div>
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Structure the order
+                                        input</label>
+                                    <input class="form-check-input float-end" type="checkbox" role="switch"
+                                        id="flexSwitchCheckDefault">
+                                </div>
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Conservative
+                                        input</label>
+                                    <input class="form-check-input float-end" type="checkbox" role="switch"
+                                        id="flexSwitchCheckDefault">
+                                </div>
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Eat together
+                                        input</label>
+                                    <input class="form-check-input float-end" type="checkbox" role="switch"
+                                        id="flexSwitchCheckDefault">
+                                </div>
+                                <div class="form-check form-switch">
+                                    <label class="form-check-label" for="flexSwitchCheckDefault">Liberal
+                                        input</label>
+                                    <input class="form-check-input float-end" type="checkbox" role="switch"
+                                        id="flexSwitchCheckDefault">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-action-btn">
+                        <a href="#" class="btn btn-outline-primary save-exit-btn">Save & exit</a>
+                        <a href="#" class="btn btn-primary save-cnt-btn">Save & continue</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="card position-relative bottom-0 w-100">
+                <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                    <div class="footer-mid-item">
+                        <div class="footer-action-btn display-mobile">
+                            <a href="#" class="btn btn-primary">Household</a>
+                            <a href="#" class="btn btn-primary">Housemate</a>
+                        </div>
+                        <div class="row">
+                            <ul class="list-group flex-lg-row list-group-horizontal-lg nav-list-items">
+                                <li class="list-group-item border-0 bg-transparent footer-infor">Home <span></span>
+                                </li>
+                                <li class="list-group-item border-0 bg-transparent">How IT WORKS<span></span></li>
+                                <li class="list-group-item border-0 bg-transparent">FAQS <span></span></li>
+                                <li class="list-group-item border-0 bg-transparent">VERIFY <span></span></li>
+                                <li class="list-group-item border-0 bg-transparent">PRICING <span></span></li>
+                                <li class="list-group-item border-0 bg-transparent">BLOG <span></span></li>
+                                <li class="list-group-item border-0 bg-transparent">CONTACT <span></span></li>
+                                <li class="list-group-item border-0 bg-transparent">LOGIN <span></span></li>
+                            </ul>
+                        </div>
+                        <div class="footer-action-btn display-desktop">
+                            <a href="#" class="btn btn-primary">Household</a>
+                            <a href="#" class="btn btn-primary">Housemate</a>
+                        </div>
+                        <menu>
+                            <li>
+                                <a href="#" class="">
+                                    <img src='./assets/Vector Smart Object.svg' class="social-media" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href=" #" class=""><img src='./assets/Vector Smart Object-1.svg'
+                                        class="social-media" /></a>
+                            </li>
+                            <li>
+                                <a href="#" class=""><img src='./assets/Vector Smart Object-2.svg'
+                                        class="social-media" /></a>
+                            </li>
+                        </menu>
+                    </div>
+                    <form class="footer-form g-3 justify-content-center">
+                        <div class="col-auto">
+                            <label for="inputPassword2" class="visually-hidden">First Name</label>
+                            <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                        </div>
+                        <div class="col-auto">
+                            <label for="inputPassword2" class="visually-hidden">Email</label>
+                            <input type="email" class="form-control" id="inputEmail2" placeholder="Email">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary save-cnt-btn mb-3">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer text-muted">
+                    <div class="container-fluid">
+                        <div class="d-flex flex-lg-row align-items-center footer-items">
+                            <div>
+                                <a class="navbar-brand text-start" href="#">
+                                </a>
+                            </div>
+                            <div class="footer-items-infor">
+                                <ul class="list-group flex-lg-row list-group-horizontal">
+                                    <li class="list-group-item border-0 bg-transparent footer-infor">Privacy Policy
+                                        <span></span>
+                                    </li>
+                                    <li class="list-group-item border-0 bg-transparent">A second item</li>
+                                    <li class="list-group-item border-0 bg-transparent">A third item</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
